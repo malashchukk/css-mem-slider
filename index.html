@@ -12,14 +12,14 @@
 
   <div class="wrapper">
       <!-- <input checked type="radio" class="btn"> -->
-          <input type="radio" name="slider" id  ="switch0" checked >
-          <input type="radio" name="slider" id  ="switch1">
-          <input type="radio" name="slider" id  ="switch2">
-          <input type="radio" name="slider" id  ="switch3">
+          <input type="radio" name="slider" id="switch0" checked >
+          <input type="radio" name="slider" id="switch1">
+          <input type="radio" name="slider" id="switch2">
+          <input type="radio" name="slider" id="switch3">
       
       <div class="slides">
         <div class="overflow">
-          <div class="content">
+          <div class="content content__images">
 
             <div class="slide image slider__0">
               <img src="./images/mem0.jpeg" alt="">
@@ -40,36 +40,38 @@
           </div>
         </div>
       </div>
-    
-      <div class="buttons">
-        <label for="switch0"></label>
-        <label for="switch1"></label>
-        <label for="switch2"></label>
-        <label for="switch3"></label>
-      </div>
-      <div class="slides">
-        <div class="overflow">
-          <div class="content">
+    <div class="helper">
 
+      <div class="slides slides__text">
+        <div class="overflow ">
+          <div class="content content__text">
+  
             <div class="slide text slider__0">
-              <p>test0</p>
+              <p>А ведь сегодня</p>
             </div>  
-
+  
             <div class="slide text slider__1">
-              <p>test1</p>
+              <p>Может у тебя есть дела поважнее?</p>
             </div>
-
-            <div class="slide text slider__2">
-              <p>test2</p>
+  
+            <div class="slide text slider__2">  
+              <p>Commit ASAP!</p>
             </div>
-
+  
             <div class="slide text slider__3">
-              <p>test3</p>
+              <p>Уже почти...</p>
             </div>
-
+  
           </div>
         </div>
-      </div>
+    </div>
+    <div class="buttons">
+      <div class="btn btn-0"><label for="switch0"></label></div>
+      <div class="btn btn-1"><label for="switch1"></label></div>
+      <div class="btn btn-2"><label for="switch2"></label></div>
+      <div class="btn btn-3"><label for="switch3"></label></div>
+    </div>
+    </div>
   </div>
 </body>
 </html>
