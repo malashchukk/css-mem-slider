@@ -16,7 +16,6 @@
   border-radius: 100%;
   background: #71ABFF;
   position: relative;
-  /* border: 1px solid #25282A; */
 }
 
 .buttons label:hover .btn{
@@ -39,14 +38,12 @@
   height: 100%;
 }
 .slides {
-  /* padding: 10px; */
   position: relative;
   z-index: 1;
 }
 .content {
   transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
   width: 400%;
-  /* line-height: 0; */
 }
 
 #switch0:checked ~ .slides .content {
@@ -135,9 +132,7 @@ label{
   .content__images {
     transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
     width: 400%;
-    line-height: 0;
-    /* height: 30vw; */
-    
+    line-height: 0;    
   }
   .helper{
     display: flex;
@@ -157,7 +152,6 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100%; */
     color: #fff;
     font-size: 2vw;
   }
@@ -207,7 +201,6 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100%; */
     color: #fff;
     font-size: 10vw;
   }
@@ -220,7 +213,6 @@ label{
     border-radius: 100%;
     background: #71ABFF;
     position: relative;
-    /* border: 1px solid #25282A; */
   }
   label{
     cursor: pointer;
